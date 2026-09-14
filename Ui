@@ -1,0 +1,24 @@
+local loaded = loadstring(game:HttpGet("https://raw.githubusercontent.com/tranvanhung040419826-ui/Charcoal-UI/refs/heads/main/8469605765224156.lua.txt", true))()
+local makeWindow = loaded:MakeWindow({
+    SaveFolder = 'Vxx.json',
+    SubTitle = 'By Vxz Team And Will Team',
+    Title = 'Vxz Script Hub [Beta] : Steal An Egg'
+})
+local newMinimizer = makeWindow:NewMinimizer({
+    KeyCode = Enum.KeyCode.LeftControl
+})
+local createMobileMinimizer = newMinimizer:CreateMobileMinimizer({
+    Image = 'rbxassetid://127729348105692',
+    BackgroundTransparency = 1,
+    Size = UDim2.new(ClickState, 55, ClickState, 55)
+})
+local typeofResult22 = typeof(createMobileMinimizer)
+local UICorner = Instance.new("UICorner")
+UICorner.CornerRadius = UDim.new(ClickState, 18)
+UICorner.Parent = createMobileMinimizer.Instance
+createMobileMinimizer.Instance.Size = UDim2.new(ClickState, 55, ClickState, 55)
+createMobileMinimizer.Instance.BackgroundTransparency = 1
+local makeTab = makeWindow:MakeTab({
+    Title = 'Thông Tin',
+    Icon = 'Info'
+})
